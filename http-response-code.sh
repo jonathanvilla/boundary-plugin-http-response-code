@@ -9,5 +9,6 @@ if [ "$URL" == "" ]; then
 	echo "URL not provided";
 	exit 1
 else
-	curl -s -w "%{http_code}\n" -o /tmp/http_status.txt $URL
+	HTTP_RESPONSE_STATUS=`curl -s -w "%{http_code}\n" -o /tmp/http_status.txt $URL`
+	echo "HTTP_RESPONSE_STATUS $HTTP_RESPONSE_STATUS"
 fi
