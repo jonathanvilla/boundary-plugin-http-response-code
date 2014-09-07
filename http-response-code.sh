@@ -5,6 +5,11 @@
 URL=`grep url ./param.json | awk '{ print $2 }' | sed 's/"//g' | sed 's/,//g'`
 INTERVAL=`grep pollInterval ./param.json | awk '{ print $2 }'`
 
+if [ $INTERVAL == "" ] ; then
+	INTERVAL=1
+fi
+
+
 while true; do
 	if [ "$URL" == "" ]; then
 		echo "URL not provided";
