@@ -8,9 +8,9 @@
     "paramSchema" : [
         {
             "title" : "URLs",
-            "title" : "URL",
+            "name" : "URL",
             "description" : "The URL to check, must include http:// or https://",
-            "type" : "string",
+            "type" : "string"
         },
 	{
             "title" : "Username",
