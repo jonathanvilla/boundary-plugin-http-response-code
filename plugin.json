@@ -1,7 +1,7 @@
 {
     "description" : "Makes a simple HTTP request to a provided URL using curl. This is beneficial when monitoring for 500/404/403/etc responses.",
     "icon" : "icon.png",
-    "command" : "http-response-code.sh $(url) $(username) $(password)",
+    "command" : "http-response-code.sh",
     "postExtract" : "chmod +x http-response-code.sh",
     "ignore" : "http_code.txt",
     "metrics" : ["HTTP_RESPONSE_CODE"],
@@ -15,7 +15,7 @@
             "required" : true
         },
         {
-            "title" : "URLs",
+            "title" : "URL",
             "name" : "url",
             "description" : "The URL to check, must include http:// or https://",
             "type" : "string",
