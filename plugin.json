@@ -7,11 +7,19 @@
     "metrics" : ["HTTP_RESPONSE_CODE"],
     "paramArray" : { "itemTitle" : ["source"], "schemaTitle" : "Endpoint"},
     "paramSchema" : [
+	{
+            "title" : "Source",
+            "name" : "source",
+            "description" : "The source to display in the legend for the endpoint. Ex. www.boundary.com",
+            "type" : "string",
+            "required" : true
+        },
         {
             "title" : "URLs",
             "name" : "URL",
             "description" : "The URL to check, must include http:// or https://",
-            "type" : "string"
+            "type" : "string",
+	    "required" : true
         },
 	{
             "title" : "Username",
