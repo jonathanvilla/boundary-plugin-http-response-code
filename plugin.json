@@ -1,0 +1,17 @@
+{
+    "description" : "Makes a simple HTTP request to a provided URL using curl. This is beneficial when monitoring for 500/404/403/etc responses.",
+    "icon" : "icon.png",
+    "command" : "http-response-code.sh $(urls)",
+    "ignore" : "http_code.txt",
+    "metrics" : ["HTTP_RESPONSE_CODE"],
+    "paramSchema" : [
+        {
+            "title" : "URLs",
+            "description" : "The urls to check, must include http:// or https://",
+            "type" : "array",
+            "items" : {
+                "type" : "string"
+            }
+        }
+    ]
+}
