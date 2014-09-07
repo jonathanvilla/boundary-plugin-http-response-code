@@ -1,6 +1,5 @@
 {
    "items": null,
    "url": "https://www.1030tech.com",
-   "method": "GET",
-   "pollInterval": 1
+   "method": "GET"
 }
