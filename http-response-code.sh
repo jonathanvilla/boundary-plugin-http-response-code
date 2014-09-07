@@ -11,6 +11,6 @@ while true; do
 	else
 		HTTP_RESPONSE_CODE=`curl -s -w "%{http_code}\n" -o ./http_code.txt $URL`
 		echo "HTTP_RESPONSE_CODE $HTTP_RESPONSE_CODE"
-		sleep 1
+		#sleep 1
 	fi
 done
