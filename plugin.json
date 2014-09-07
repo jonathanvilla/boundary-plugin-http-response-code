@@ -1,5 +1,5 @@
 {
-    "description" : "Makes a simple HTTP request to a provided URL using curl. This is beneficial when monitoring for 500/404/403/etc responses.",
+    "description" : "Makes a simple HTTP request to a provided URL using curl.",
     "icon" : "icon.png",
     "command" : "sh http-response-code.sh",
     "postExtract" : "chmod +x http-response-code.sh",
