@@ -16,7 +16,7 @@
         },
         {
             "title" : "URLs",
-            "name" : "URL",
+            "name" : "url",
             "description" : "The URL to check, must include http:// or https://",
             "type" : "string",
 	    "required" : true
