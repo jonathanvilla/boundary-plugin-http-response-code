@@ -32,6 +32,14 @@
             "name" : "password",
             "description" : "(optional) If the endpoint is password protected, what password should graphdat use when calling it.",
             "type" : "password"
+        },
+	{
+            "title" : "Poll Time (sec)",
+            "name" : "pollInterval",
+            "description" : "The Poll Interval to call your endpoint in seconds. Ex. 5",
+            "type" : "string",
+            "default" : 1,
+            "required" : true
         }
     ]
 }
