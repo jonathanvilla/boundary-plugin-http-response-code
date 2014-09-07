@@ -12,6 +12,18 @@
             "items" : {
                 "type" : "string"
             }
+        },
+	{
+            "title" : "Username",
+            "name" : "username",
+            "description" : "If the endpoint is password protected, what username should graphdat use when calling it.",
+            "type" : "string"
+        },
+        {
+            "title" : "Password",
+            "name" : "password",
+            "description" : "If the endpoint is password protected, what password should graphdat use when calling it.",
+            "type" : "password"
         }
     ]
 }
