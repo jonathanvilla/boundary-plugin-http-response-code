@@ -6,12 +6,6 @@
          "username": "",
          "password": ""
       },
-      {
-         "source": "CatapultUniversity",
-         "url": "http://catapultuniversity.com/web/guest",
-         "username": "",
-         "password": ""
-      }
    ],
    "pollInterval": 1000
 }
